@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .column {
+      flex-basis: calc(33.33% - 20px); /* Adjust for margin */
+      box-sizing: border-box;
+      margin-right: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px; /* Optional: Rounded corners for images */
+    }
+
+    .caption {
+      margin-top: 10px;
+      text-align: center;
+    }
+  </style>
+  <title>Complex HTML with CSS</title>
+</head>
+<body>
+
+  <div class="container">
+    <!-- First Row -->
+    <div class="row">
+      <div class="column">
+        <img src="photo2.jpg" alt="Image 1">
+        <div class="caption">Caption for Image 1</div>
+      </div>
+      <div class="column">
+        <img src="photo2.jpg" alt="Image 2">
+        <div class="caption">Caption for Image 2</div>
+      </div>
+      <div class="column">
+        <img src="photo2.jpg" alt="Image 3">
+        <div class="caption">Caption for Image 3</div>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="row">
+      <div class="column">
+        <img src="photo2.jpg" alt="Image 4">
+        <div class="caption">Caption for Image 4</div>
+      </div>
+      <div class="column">
+        <img src="photo2.jpg" alt="Image 5">
+        <div class="caption">Caption for Image 5</div>
+      </div>
+      <div class="column">
+        <img src="photo2.jpg" alt="Image 6">
+        <div class="caption">Caption for Image 6</div>
+      </div>
+    </div>
+
+    <!-- Third Row -->
+    <div class="row">
+      <div class="column">
+        <img src="photo2.jpg" alt="Image 7">
+        <div class="caption">Caption for Image 7</div>
+      </div>
+      <div class="column">
+        <img src="photo2.jpg" alt="Image 8">
+        <div class="caption">Caption for Image 8</div>
+      </div>
+      <div class="column">
+        <img src="photo2.jpg" alt="Image 9">
+        <div class="caption">Caption for Image 9</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
